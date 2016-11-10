@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "_variables";
 
 /* mixins, variables, etc. */
 $gray-medium-light: #eaeaea;
@@ -59,13 +60,13 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: white;
+  color: $gray-dark;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-    color: white;
+    color: $gray-darker;
     text-decoration: none;
   }
 }
@@ -79,7 +80,7 @@ footer {
   a {
     color: $gray;
     &:hover {
-      color: $gray-darker;
+      color: $brand-danger;
     }
   }
   small {
@@ -156,7 +157,7 @@ aside {
     }
     &:hover {
       text-decoration: none;
-      color: blue
+      color: $brand-danger
     }
   }
   strong {
