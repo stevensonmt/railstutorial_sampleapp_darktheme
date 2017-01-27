@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.0.1'
+gem 'rails', github: 'rails/rails', branch: "5-0-stable"
 gem 'bcrypt', '3.1.11'
 gem 'faker',  '1.6.6'
 gem 'carrierwave', '0.11.2'
@@ -11,6 +11,7 @@ gem 'fog', '1.38.0'
 gem 'will_paginate',  '3.1.0'
 gem 'bootstrap-will_paginate', '0.0.10'
 gem 'bootstrap-sass', '3.3.6'
+gem 'hyper-rails'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 # Use Puma as the app server
@@ -71,3 +72,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'opal-rails'
+gem 'opal-browser'
+gem 'hyper-react'
+gem 'therubyracer', platforms: :ruby

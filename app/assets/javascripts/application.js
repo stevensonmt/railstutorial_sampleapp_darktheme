@@ -1,3 +1,12 @@
+// added by hyper-rails:  These lines must preceed other requires especially turbo_links
+//= require 'opal'
+//= require 'react/react-source'
+//= require 'components'
+//= require 'react_ujs'
+//= require 'chat_service'
+//= require 'reactrb-express'
+//= require 'marked.min'
+
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
@@ -14,4 +23,5 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require turbolinks
-//= require_tree .
+// = require_tree .
+Opal.load('components');
