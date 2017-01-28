@@ -3,7 +3,6 @@
 //= require 'react/react-source'
 //= require 'components'
 //= require 'react_ujs'
-//= require 'marked.min'
 
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
